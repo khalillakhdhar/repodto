@@ -12,6 +12,7 @@ import com.social.repositories.UserRepository;
 public class RepodtoApplication implements CommandLineRunner {
 
 	@Autowired
+	// dependency injection
 	UserRepository userRepository;
 	
 	public static void main(String[] args) {
